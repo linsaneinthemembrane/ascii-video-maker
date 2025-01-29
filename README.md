@@ -5,7 +5,7 @@ A Python-based tool that converts videos into ASCII art animations, with special
 ## Examples
 Here are some examples of the video conversion program
 ### Output ASCII Animations
-![Gear 5 Animation](https://raw.githubusercontent.com/linsaneinthemembrane/ascii-video-maker/main/gear_5.gif)
+![Gear 5 Animation](https://raw.githubusercontent.com/linsaneinthemembrane/ascii-video-maker/main/mp4s_and_gifs/gear_5.gif)
 
 
 ![OIIAOIIA Cat gif](https://github.com/linsaneinthemembrane/ascii-video-maker/blob/main/mp4s_and_gifs/OIIAOIIA_CAT.gif?raw=true)
