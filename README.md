@@ -8,7 +8,7 @@ Here are some examples of the video conversion program
 ![Gear 5 Animation](https://raw.githubusercontent.com/linsaneinthemembrane/ascii-video-maker/main/gear_5.gif)
 
 
-![OIIAOIIA Cat Animation](https://github.com/linsaneinthemembrane/ascii-video-maker/blob/main/OIIAOIIA_CAT.gif)
+![OIIAOIIA Cat Animation]([https://github.com/linsaneinthemembrane/ascii-video-maker/blob/main/OIIAOIIA_CAT.gif](https://github.com/linsaneinthemembrane/ascii-video-maker/blob/main/mp4s_and_gifs/OIIAOIIA_CAT.gif))
 
 
 
