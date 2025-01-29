@@ -11,7 +11,7 @@ class ASCIIVideoProcessor:
         self.frame_buffer = []
         self.buffer_size = 30
         
-        # different ascii styles for scene types
+        # different ascii styles for types of .mp4 files
         self.styles = {
             'default': ['@', '#', '8', '&', '%', 'X', '+', '=', '-', ':', '.'],
             'dense': ['█', '▓', '▒', '░'],
@@ -40,7 +40,7 @@ class ASCIIVideoProcessor:
         edges = cv2.Canny(frame, 100, 200)
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         
-        # set green screen pixels to white (which will become spaces)
+        # set green screen pixels to white (will become spaces once converted)
         gray[mask > 0] = 255
         
         gray[edges > 0] = 0
@@ -58,7 +58,7 @@ class ASCIIVideoProcessor:
         img_width = self.width * char_width
         img_height = self.height * char_height
         
-        # create and draw ascii frame
+        # draw ascii frame
         image = Image.new('RGB', (img_width, img_height), color='black')
         draw = ImageDraw.Draw(image)
         
@@ -90,7 +90,7 @@ class ASCIIVideoProcessor:
             if not ret:
                 break
             
-            # process alternate frames for performance
+            # process every other frames
             if frame_count % 2 == 0:
                 ascii_frame = self.process_frame(frame)
                 frame_image = self.create_frame_image(ascii_frame)
@@ -105,7 +105,7 @@ class ASCIIVideoProcessor:
         cap.release()
         print(f"Processing complete! Total frames processed: {processed_count}")
         
-        # save output gif
+        # save gif
         if self.frames:
             print("Saving GIF...")
             self.frames[0].save(
