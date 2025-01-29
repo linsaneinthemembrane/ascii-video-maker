@@ -3,13 +3,15 @@
 A Python-based tool that converts videos into ASCII art animations, with special support for green screen videos.
 
 ## Examples
-
+Example of ASCII video conversion with Gear 5 Luffy and the famous OIIAOIIA cat
 ### Output ASCII Animations
 ![Gear 5 Animation](https://raw.githubusercontent.com/linsaneinthemembrane/ascii-video-maker/main/gear_5.gif)
 
+
 ![OIIAOIIA Cat Animation](https://github.com/linsaneinthemembrane/ascii-video-maker/blob/main/OIIAOIIA_CAT.gif)
 
-The example above demonstrates the conversion of a green screen video to ASCII art animation, showing how the program removes the green background while preserving the cat's details in ASCII characters.
+
+
 
 
 ## Features
