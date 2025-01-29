@@ -76,6 +76,3 @@ There are three styles that can be chosen
 - Parallel processing for faster conversion
 - GUI interface for easier usage
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
