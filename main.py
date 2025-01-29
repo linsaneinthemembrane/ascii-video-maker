@@ -5,19 +5,16 @@ def main():
     # Add print statements for debugging
     print("Starting video processing...")
     
-    processor = ASCIIVideoProcessor(
-        width=120,
-        height=60,
-        style='default'
-    )
+    processor = ASCIIVideoProcessor(style='default')
     
     # Add video file path verification
-    input_file = 'your_video.mp4'  # Replace with your actual video file name
+    file_name = 'gear_5'
+    input_file = f'{file_name}.mp4'  # Replace with your actual video file name
     print(f"Processing video: {input_file}")
     
     processor.process_video(
         input_path=input_file,
-        output_path='output2.gif',
+        output_path= f'{file_name}.gif',
         fps=24
     )
     
