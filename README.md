@@ -15,7 +15,6 @@ A Python-based tool that converts videos into ASCII art animations, with special
 - OpenCV (cv2) for video processing and frame manipulation
 - NumPy for efficient array operations
 - PIL/Pillow for image creation and GIF generation
-- Python for core programming
 
 ## Technical Highlights
 
