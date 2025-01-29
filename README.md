@@ -2,6 +2,17 @@
 
 A Python-based tool that converts videos into ASCII art animations, with special support for green screen videos.
 
+## Examples
+
+### Input Video
+![Green Screen Cat](https://raw.githubusercontent.com/linsaneinthemembrane/ascii-video-maker/main/OIIAOIIA_CAT.mp4)
+
+### Output ASCII Animation
+![ASCII Cat Animation](https://raw.githubusercontent.com/linsaneinthemembrane/ascii-video-maker/main/gear_5.gif)
+
+The example above demonstrates the conversion of a green screen video to ASCII art animation, showing how the program removes the green background while preserving the cat's details in ASCII characters.
+
+
 ## Features
 
 - Converts video files to ASCII art GIF animations
