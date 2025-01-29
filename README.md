@@ -50,7 +50,7 @@ fps=24
 
 
 ## ASCII Style Options
-There are three styles that can be chosen
+There are three styles that can be specified:
 - Default: `@#8&%X+=-:.`
 - Dense: `█▓▒░`
 - Minimal: `@%#*+=-:.`
