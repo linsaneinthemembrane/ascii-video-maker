@@ -40,7 +40,6 @@ Here are some examples of the video conversion program
 
 1. Clone the repository
 2. Install required dependencies:
-3. 
 ```
 pip install opencv-python numpy pillow
 ```
