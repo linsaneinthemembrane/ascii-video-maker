@@ -51,7 +51,7 @@ fps=24
 
 
 ## ASCII Style Options
-
+There are three styles that can be chosen
 - Default: `@#8&%X+=-:.`
 - Dense: `█▓▒░`
 - Minimal: `@%#*+=-:.`
