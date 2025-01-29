@@ -7,7 +7,7 @@ Here are some examples of the video conversion program
 ### Output ASCII Animations
 ![Gear 5 Animation](https://raw.githubusercontent.com/linsaneinthemembrane/ascii-video-maker/main/mp4s_and_gifs/gear_5.gif)
 
-![OIIAOIIA Cat gif]((https://raw.githubusercontent.com/linsaneinthemembrane/ascii-video-maker/main/mp4s_and_gifs/OIIAOIIA_CAT.gif))
+![OIIAOIIA Cat gif](https://raw.githubusercontent.com/linsaneinthemembrane/ascii-video-maker/main/mp4s_and_gifs/OIIAOIIA_CAT.gif)
 
 
 ## Features
