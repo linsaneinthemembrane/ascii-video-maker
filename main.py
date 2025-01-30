@@ -9,8 +9,8 @@ def main():
     processor = ASCIIVideoProcessor(style='default', width=160, height=60)
     
     # add video file path verification
-    file_name = 'OIIAOIIA_CAT'
-    input_file = f'{file_name}.mp4'  # replace with your actual video file name
+    file_name = 'gear_5_reveal'  # replace with your actual video file name
+    input_file = f'mp4s_and_gifs\{file_name}.mp4'  # replace with your actual video file name
     if not os.path.exists(input_file):
         print(f"Error: Input file '{input_file}' not found.")
         return
